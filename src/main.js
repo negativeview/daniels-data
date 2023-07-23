@@ -237,7 +237,7 @@ async function shortsword(opts) {
     doAttackRoll(opts);
 }
 
-async function longsword({handedness, damage, ability, label, crit, reroll} = {}) {
+async function longsword(opts) {
     let defaults = {
         name: 'Longsword',
         crit: 20,
@@ -272,7 +272,7 @@ async function longsword({handedness, damage, ability, label, crit, reroll} = {}
     doAttackRoll(opts);
 }
 
-async function dagger({damage, ability, label, crit, reroll} = {}) {
+async function dagger(opts) {
     let defaults = {
         name: 'Dagger',
         crit: 20,
@@ -307,7 +307,7 @@ async function dagger({damage, ability, label, crit, reroll} = {}) {
     doAttackRoll(opts);
 }
 
-async function dart({damage, ability, label, crit, reroll} = {}) {
+async function dart(opts) {
     let defaults = {
         name: 'Dart',
         crit: 20,
@@ -331,7 +331,7 @@ async function dart({damage, ability, label, crit, reroll} = {}) {
     doAttackRoll(opts);
 }
 
-async function warhammer({handedness, damage, ability, label, crit, reroll} = {}) {
+async function warhammer(opts) {
     let defaults = {
         name: 'Warhammer',
         crit: 20,
@@ -366,7 +366,7 @@ async function warhammer({handedness, damage, ability, label, crit, reroll} = {}
     doAttackRoll(opts);
 }
 
-async function spear({handedness, damage, ability, label, crit, reroll} = {}) {
+async function spear(opts) {
     let defaults = {
         name: 'Spear',
         crit: 20,
@@ -401,7 +401,7 @@ async function spear({handedness, damage, ability, label, crit, reroll} = {}) {
     doAttackRoll(opts);
 }
 
-async function javelin({damage, ability, label, crit, reroll} = {}) {
+async function javelin(opts) {
     let defaults = {
         name: 'Javelin',
         crit: 20,
@@ -426,7 +426,7 @@ async function javelin({damage, ability, label, crit, reroll} = {}) {
     doAttackRoll(opts);
 }
 
-async function lightCrossbow({damage, ability, label, crit, reroll} = {}) {
+async function lightCrossbow(opts) {
     let defaults = {
         name: 'Light Crossbow',
         crit: 20,
